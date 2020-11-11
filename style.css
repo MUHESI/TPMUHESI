@@ -1,0 +1,166 @@
+.backgroundCres,
+.trait {
+  background: #121e58;
+  color: white;
+}
+.backgroundCres a {
+  font-size: 0.9;
+}
+/*.colorCres {
+  background: white;
+  color: #121e58;
+}
+*/
+.back-primary{
+  background: #121e58;
+}
+.text-bold{
+  color: red;
+  font-weight:bold;
+}
+
+
+
+.colorCres {
+  color: white;
+  opacity:0.8;
+}
+
+.backgroundCres2 {
+  background: #c3a523;
+  /*color: white;*/
+  border-radius: 5px;
+  font-size: 0.5;
+  font-weight: bold;
+  margin: 2px;
+}
+.borderCRES {
+  border: 0.3px solid #c3a523;
+  padding: 2px;
+}
+.trait a {
+  border-bottom: 0.3px solid white;
+  color: white;
+}
+.border-bottom_jaune {
+  border-bottom: 2px solid #c3a523;
+}
+.lien {
+  text-align: right;
+}
+.lien span {
+  color: #121e58;
+  font-weight: bold;
+}
+.cardCRES {
+  margin-top: 2px;
+}
+.cardCRES .body {
+  padding-left: 20px;
+  color: white;
+}
+.image img {
+  padding-bottom: 10px;
+  margin-right: 15px;
+  box-shadow: 1px 0px 10px #c3a523;
+}
+.cardCRES h1 {
+  color: #c3a523;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bold;
+
+  padding: 5px;
+  border-bottom: 0.3px solid #c3a523;
+}
+/*   css de coming soon
+ { }
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: linear-gradient(#121e58, rgba(0, 0, 0, 0.5)),
+    url("../images/bac.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.hero {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+header h1 {
+  margin-top: 20%;
+  font-size: 40px;
+  letter-spacing: 10px;
+  transition: 0.5s;
+  opacity: 0.7;
+  transform: translateX(+5px);
+}
+header h1:hover{
+    color:#c3a523;
+    transition: 0.5s
+    /*background: linear-gradient(380deg, #aa0057, #e05a19);*/
+    transform:translateY(-10px);
+    opacity:1;
+    /*visibility: visible;*/
+}
+hr {
+  width: 80%;
+  margin: 30px auto;
+  border: 0.3px solid #fff;
+}
+header p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#launch {
+  
+  margin-top: 5%;
+  font-size: 25px;
+  word-spacing: 10px;
+  transition: 0.8s;
+  transform:translateX(+10px);
+}
+
+#launch:hover {
+  transition:0.8s;
+  word-spacing: 20px;
+  transform:translateX(-10px);
+}
+.mail{
+  transform:translateX(-5px);
+  transition: 0.8s;
+  color:white;
+  margin: 0;
+}
+
+.mail:hover{
+  text-decoration: none;
+  transition: 0.5s;
+  color:white;
+  transform:translateX(10px);
+  border-bottom:1px solid #c3a523;
+  opacity: 1;
+
+}
+
+
+.tweetern{
+  color: blue;
+}
+.facebookm{
+  color: blue;
+}
+.githubn{
+  color: black;
+}
+
+
